@@ -1,11 +1,10 @@
-public abstract class Wizard extends Character{
+public class Wizard extends Character{
     int mp;
 
-    Wizard(){
-        super();
-        this.name = getName();
-        this.hp = getHp();
-        this.mp = getMp();
+    Wizard(String name,int hp){
+        super("魔法使い",60);
+        setName(name);
+        setHp(hp);
     }
     public int getMp() {
         return this.mp;
@@ -14,10 +13,12 @@ public abstract class Wizard extends Character{
     public void setMp(int mp){
         this.mp = mp;
     }
+
+
     public void attack(Creature target){
-        System.out.println("[" + this.name + "]は火の玉を放った！[" + target + "]に３のダメージを与えた！");
+        System.out.println("[" + getName() + "]は火の玉を放った！[" + target + "]に３のダメージを与えた！");
         this.mp -= 1;
-        this.hp -= 3;
+        target.setHp(target.getHp()-5);
 
     }
 }

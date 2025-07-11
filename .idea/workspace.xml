@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8c99191-7e76-4d6c-94e2-e829594e426b" name="変更" comment="" />
+    <list default="true" id="a8c99191-7e76-4d6c-94e2-e829594e426b" name="変更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Goblin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Goblin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matango.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matango.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SuperHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SuperHero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thief.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thief.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wizard.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2zcdv5GL8NvmlEoUuxk3389Ua0L" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,9 +38,16 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/241070/IdeaProjects/ExamProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "アプリケーション.GameMaster.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -48,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1752034525046</updated>
       <workItem from="1752034527254" duration="202000" />
+      <workItem from="1752214821514" duration="6385000" />
     </task>
     <servers />
   </component>

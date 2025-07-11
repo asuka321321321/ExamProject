@@ -1,15 +1,14 @@
 public abstract class Character implements Creature{
-    String name;
-    int hp;
+    private String name;
+    private int hp;
 
     Character(String name,int hp){
-        this.name = getName();
-        this.hp = getHp();
+        setName(name);
+        setHp(hp);
+        //this.name = getName();
+        //this.hp = getHp();
     }
 
-    public Character() {
-
-    }
 
     public String getName() {
         return this.name;
@@ -32,7 +31,7 @@ public abstract class Character implements Creature{
     }
 
     public void showStatus(){
-        System.out.println("[" + this.name + "]:HP[" + this.hp + "]");
+        System.out.println("[" + getName() + "]:HP[" + getHp() + "]");
     }
 
 

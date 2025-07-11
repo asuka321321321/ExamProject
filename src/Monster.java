@@ -1,11 +1,18 @@
 public abstract class Monster implements Creature{
-    String name;
-    int hp;
-    char suffix;
+    private String name;
+    private int hp;
+    private char suffix;
 
     Monster(){
-        this.suffix = getSuffix();
-        this.hp = getHp();
+        setName(name);
+        setSuffix(suffix);
+        setHp(hp);
+    }
+    public String getName() {
+        return this.name;
+    }
+    public void setName(String name) {
+        this.name = name;
     }
     public int getHp() {
         if (hp < 0) {
@@ -26,13 +33,7 @@ public abstract class Monster implements Creature{
     public final boolean isAlive() {
         return this.hp > 0;
     }
-    public void showStatus(){
-        System.out.println("[" + this.name + "][" + this.suffix + "]:HP[" + this.hp + "]");
+    public void showStatus() {
+        System.out.println("[" + getName() + getSuffix() + "]:HP[" + getHp()+ "]");
     }
-
-
-
-
-
-
 }
