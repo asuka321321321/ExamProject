@@ -14,11 +14,11 @@ public class Wizard extends Character{
         this.mp = mp;
     }
 
-
+    @Override
     public void attack(Creature target){
-        System.out.println("[" + getName() + "]は火の玉を放った！[" + target + "]に３のダメージを与えた！");
-        this.mp -= 1;
-        target.setHp(target.getHp()-5);
+        System.out.println(getName() + "は火の玉を放った！" + target.getName() + "に３のダメージを与えた！");
+        this.setMp(this.getMp()-1);
+        target.setHp(target.getHp()-3);
 
     }
 }

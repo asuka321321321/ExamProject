@@ -7,7 +7,7 @@ public class Goblin extends Monster {
         //this.hp = getHp();
     }
     public void attack(Creature target){
-        System.out.println("ゴブリン[" + getSuffix() + "]はナイフで切りつけた！[" + target + "]に８のダメージを与えた！");
+        System.out.println("ゴブリン" + getSuffix() + "はナイフで切りつけた！" + target.getName() + "に８のダメージを与えた！");
         target.setHp(target.getHp()-8);
     }
 
