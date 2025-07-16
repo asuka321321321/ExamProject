@@ -1,4 +1,9 @@
-public final class Slime extends Monster{
+package creature.monster;
+
+import creature.Creature;
+import creature.Monster;
+
+public final class Slime extends Monster {
     public Slime(String name,char suffix,int hp){
         super(name,suffix,hp);
     }

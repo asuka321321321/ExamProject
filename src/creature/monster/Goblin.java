@@ -1,3 +1,8 @@
+package creature.monster;
+
+import creature.Monster;
+import creature.Creature;
+
 public class Goblin extends Monster {
     public Goblin(String name,char suffix,int hp) {
         super(name,suffix,hp);

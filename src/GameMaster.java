@@ -1,9 +1,19 @@
+import creature.Monster;
+import creature.character.Hero;
+import creature.character.SuperHero;
+import creature.character.Thief;
+import creature.character.Wizard;
+import creature.Character;
+import creature.monster.Goblin;
+import creature.monster.Matango;
+import creature.monster.Slime;
+
 import java.util.ArrayList;
 
 public class GameMaster {
     public static void main(String[] args) {
 
-        ArrayList<Character> party = new ArrayList<Character>();
+        ArrayList<creature.Character> party = new ArrayList<creature.Character>();
 
         Hero h = new Hero("勇者", 100,"剣");
         Wizard w = new Wizard("魔法使い",60);
@@ -24,7 +34,7 @@ public class GameMaster {
         monsters.add(s);
 
         System.out.println("--味方パーティ--");
-        for(Character ally : party) {
+        for(creature.Character ally : party) {
             ally.showStatus();
         }
 
@@ -34,7 +44,7 @@ public class GameMaster {
         }
 
         System.out.println("\n味方の総攻撃！");
-        for(Character ally : party){
+        for(creature.Character ally : party){
             for(Monster enemy : monsters){
                 ally.attack(enemy);
             }
@@ -42,7 +52,7 @@ public class GameMaster {
 
         System.out.println("\n敵の総攻撃！");
         for(Monster enemy : monsters){
-            for(Character ally : party){
+            for(creature.Character ally : party){
                 enemy.attack(ally);
             }
         }
