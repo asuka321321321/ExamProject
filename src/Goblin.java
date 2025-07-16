@@ -1,5 +1,5 @@
 public class Goblin extends Monster {
-    Goblin(String name,char suffix,int hp) {
+    public Goblin(String name,char suffix,int hp) {
         super(name,suffix,hp);
     }
     public void attack(Creature target){

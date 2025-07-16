@@ -2,7 +2,7 @@ public abstract class Character implements Creature{
     private String name;
     private int hp;
 
-    Character(String name,int hp){
+    public Character(String name,int hp){
         setName(name);
         setHp(hp);
         if (hp < 0) {

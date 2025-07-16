@@ -1,7 +1,7 @@
 public class Wizard extends Character{
     int mp;
 
-    Wizard(String name,int hp){
+    public Wizard(String name,int hp){
         super(name,hp);
     }
     public int getMp() {
