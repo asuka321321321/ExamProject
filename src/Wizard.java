@@ -2,9 +2,7 @@ public class Wizard extends Character{
     int mp;
 
     Wizard(String name,int hp){
-        super("魔法使い",60);
-        setName(name);
-        setHp(hp);
+        super(name,hp);
     }
     public int getMp() {
         return this.mp;

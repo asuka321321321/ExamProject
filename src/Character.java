@@ -8,11 +8,7 @@ public abstract class Character implements Creature{
         if (hp < 0) {
             throw new IllegalArgumentException("初期設定に誤りがあるため、キャラクターを作成できませんでした。");
         }
-        //this.name = getName();
-        //this.hp = getHp();
     }
-
-
     public String getName() {
         return this.name;
     }

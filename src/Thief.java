@@ -1,9 +1,7 @@
 public class Thief extends Character{
 
-    public Thief(String name, int hp) {
-        super("盗賊",70);
-        setName(name);
-        setHp(hp);
+    public Thief(String name,int hp) {
+        super(name,hp);
     }
 
     @Override
