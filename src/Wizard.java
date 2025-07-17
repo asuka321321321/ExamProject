@@ -1,13 +1,9 @@
-package creature.character;
-
-import creature.Character;
-import creature.Creature;
-
 public class Wizard extends Character {
     int mp;
 
-    public Wizard(String name,int hp){
+    public Wizard(String name,int hp,int mp){
         super(name,hp);
+        setMp(mp);
     }
     public int getMp() {
         return this.mp;

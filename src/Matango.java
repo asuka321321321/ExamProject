@@ -1,11 +1,6 @@
-package creature.monster;
-
-import creature.Monster;
-import creature.Creature;
-
 public class Matango extends Monster {
-     public Matango(String name,char suffix,int hp){
-         super(name,suffix,hp);
+     public Matango(char suffix,int hp){
+         super("お化けキノコ",suffix,hp);
      }
 
      @Override

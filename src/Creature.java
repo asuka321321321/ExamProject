@@ -1,5 +1,3 @@
-package creature;
-
 public interface Creature {
     boolean isAlive();
     void showStatus();
